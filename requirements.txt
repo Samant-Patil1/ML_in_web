@@ -60,7 +60,6 @@ jupyterlab_git
 jupyterlab_pygments
 jupyterlab_server
 kiwisolver
-libmambapy
 MarkupSafe
 matplotlib
 matplotlib-inline
