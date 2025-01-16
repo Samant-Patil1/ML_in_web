@@ -16,7 +16,6 @@ cffi
 charset-normalizer
 colorama
 comm
-conda
 conda-libmamba-solver
 conda-package-handling
 conda_package_streaming
