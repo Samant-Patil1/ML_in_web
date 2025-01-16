@@ -16,9 +16,6 @@ cffi
 charset-normalizer
 colorama
 comm
-conda-libmamba-solver
-conda-package-handling
-conda_package_streaming
 contourpy
 cryptography
 cycler
