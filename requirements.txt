@@ -27,6 +27,7 @@ executing
 fastjsonschema
 filelock
 fonttools
+flask
 fqdn
 frozendict
 fsspec
