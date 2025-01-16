@@ -2,6 +2,16 @@
 <html>
 
 <head>
+    <style>
+        body {
+            text-align: center;
+        }
+        
+        button {
+            color: aliceblue;
+            background-color: blue;
+        }
+    </style>
     <title>
         Email Spam Classifier
     </title>
@@ -10,14 +20,17 @@
 <body>
     <h1>Email Spam Classifier</h1>
     <div>
-        <form>
-            <textarea rows="12" cols="60" name="content" placeholder="Type or paste your email here"></textarea>
+        <form method="POST">
+            <textarea rows="12" cols="60" name="content" placeholder="Enter your email here" value="{{ text }}">{{ text }}</textarea>
             <div>
-                <button>
-                    Submit
-                </button>
+                <button type="submit">Submit</button>
             </div>
         </form>
+        <br>
+        <a href="/">Reset</a>
+    </div>
+    <div>
+        <p id="display">{{ text }}</p>
     </div>
 </body>
 
